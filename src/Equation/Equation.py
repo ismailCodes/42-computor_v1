@@ -23,7 +23,7 @@ class Equation:
         ret_terms = []
         for term in terms_list:
             split_terms = term.split('*')
-            split_terms = [x.strip().replace(' ', '') for x in x]
+            split_terms = [x.strip().replace(' ', '') for x in split_terms]
             if len(split_terms) == 1:
                 if Equation.is_digit(split_terms[0]):
                     t = Term(coefficient=split_terms[0])
