@@ -2,6 +2,7 @@ import re
 
 
 class Parser:
+
     @staticmethod
     def match_in_string(str_: str = '', pattern: str = '') -> list:
         pattern_ = re.compile(pattern)

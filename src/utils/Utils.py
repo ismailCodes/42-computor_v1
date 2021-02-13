@@ -1,4 +1,5 @@
 class Utils:
+
     @staticmethod
     def switch_sign(items: list):
         for item in items:
